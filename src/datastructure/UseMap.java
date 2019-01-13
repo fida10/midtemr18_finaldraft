@@ -8,26 +8,26 @@ public class UseMap {
 	public static void main(String[] args) {
 
 
-				List<String>INDcity=new ArrayList<String>();
-				INDcity.add("Mumbai");
-				INDcity.add("Dehli");
-				INDcity.add("Puna");
+				List<String>FRAcity=new ArrayList<String>();
+				FRAcity.add("Paris");
+				FRAcity.add("Nice");
+				FRAcity.add("Bordeaux");
 
 				List<String>UScity=new ArrayList<String>();
-				UScity.add("DC");
-				UScity.add("NY");
-				UScity.add("CA");
+				UScity.add("Bismarck");
+				UScity.add("Baltimore");
+				UScity.add("Seattle");
 
 
-				List<String>PAKcity=new ArrayList<String>();
-				PAKcity.add("LAHORE");
-				PAKcity.add("KARACHI");
-				PAKcity.add("ISLAMABAD");
+				List<String>TURKcity=new ArrayList<String>();
+				TURKcity.add("Ankara");
+				TURKcity.add("Istanbul");
+				TURKcity.add("Antakya");
 
 				Map<String,List<String>> listofCities=new HashMap<String,List<String>>();
-				listofCities.put("Cities of India",INDcity);
+				listofCities.put("Cities of France",FRAcity);
 				listofCities.put("States of USA",UScity);
-				listofCities.put("Cities of Pakistan",PAKcity);
+				listofCities.put("Cities of Pakistan",TURKcity);
 
 				Iterator it=listofCities.entrySet().iterator();
 

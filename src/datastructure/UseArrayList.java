@@ -26,26 +26,26 @@ public class UseArrayList {
 		ar.add(1200);
 
 		//Print Array List
-		System.out.println("Retrieving elements from ArrayList: " + ar);
+		System.out.println("Getting the elements from ArrayList: " + ar);
 
 		//Using get method to peek the first element
-		System.out.println("Arrays peek element: " + ar.get(0));
+		System.out.println("The peak element is: " + ar.get(0));
 
 		//remove element from ArrayList
-		System.out.println("Remove element at index 3: " + ar.remove(3));
+		System.out.println("Getting rid of index 3 element: " + ar.remove(3));
 
 		//Retrieving elements from ArrayList
-		System.out.println("Re-retrieving elements from ArrayList: " + ar);
+		System.out.println("Element re-retrieval from ArrayList: " + ar);
 
 		// retrieving data Using forEach loop
-		System.out.print("Re-retrieving elements from ArrayList: ");
+		System.out.print("Element re-retrieval from ArrayList: ");
 		for (Integer in : ar) {
 			System.out.print(" "+in);
 		}
 		System.out.println();
 
 		//retrieving data using iterator
-		System.out.print("Re-retrieving elements from ArrayList: ");
+		System.out.print("Element re-retrieval from ArrayList: ");
 		Iterator it = ar.iterator();
 		while (it.hasNext()) {
 			Integer i = (Integer) it.next();
